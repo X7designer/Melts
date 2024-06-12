@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #F15A24;
+    color: aliceblue;
+}
+
+.oferta-header{
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: medium;
+    font-weight: 300;
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-logo img{
+    max-width: 150px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    gap: 3rem;
+    
+}
+
+.links a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: rgb(34, 34, 34);
+    transition: all 0.3s ease;
+}
+
+.links a:hover{
+    color: #F15A24;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: #F15A24;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+background-color: #e4bfb2;
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.banner{
+
+}
+
+.banner img{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.pesquisas{
+    padding: 30px;
+}
+
+.search-container{
+    width: 400px;
+    display: block;
+    margin: auto;
+  }
+  
+  input#search-bar{
+    margin: auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    &:focus{
+      border: 1px solid #000000;
+      transition: 0.35s ease;
+      color: #000000;
+      &::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &:-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+       }    
+     }
+   }
+  .search-icon{
+    position: relative;
+    float: right;
+    width: 23px;
+    height: 23px;
+    top: -34px;
+    right: 10px;
+  }
+
+  .btn-pesquisa{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: #F15A24;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .titulo{
+    padding: 20px 0px 0px 0px;
+    color: #F15A24;
+    text-align: center;
+  }
+  
+  .titulo span{
+    color: #603813;
+}
